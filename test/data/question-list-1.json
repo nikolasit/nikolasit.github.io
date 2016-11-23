@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "title": "Двумерный массив символов из двух строк и трёх столбцов может быть задан",
+        "answers": [
+            {
+                "id": 1,
+                "content": "char[,] A = new char[2, 3];",
+                "isCorrect": false,
+                "comment": null
+            },
+            {
+                "id": 2,
+                "content": "char[,] A = new char[2, 3];",
+                "isCorrect": false,
+                "comment": null
+            },
+            {
+                "id": 3,
+                "content": "var B = new char[2, 3] { { '1', '2', '3' }, { '4', '5', '6' }, { '4', '5', '6' } };",
+                "isCorrect": true,
+                "comment": "Комментарий для ответа 3"
+            },
+            {
+                "id": 4,
+                "content": "var B = new char[2, 3] { { '1', '2', '3' }, { '4', '5', '6' } };",
+                "isCorrect": false,
+                "comment": null
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Еще вопрос про массивы",
+        "answers": [
+            {
+                "id": 1,
+                "content": "var B = new char[2, 3] { { '1', '2', '3' }, { '4', '5', '6' } };",
+                "isCorrect": true,
+                "comment": "Комментарий для ответа 1"
+            },
+            {
+                "id": 2,
+                "content": "char[,] A = new char[2, 3];",
+                "isCorrect": false,
+                "comment": null
+            },
+            {
+                "id": 3,
+                "content": "char[,] A = new char[2, 3];",
+                "isCorrect": false,
+                "comment": null
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Еще вопрос про массивы",
+        "answers": [
+            {
+                "id": 2,
+                "content": "char[,] A = new char[2, 3];",
+                "isCorrect": false,
+                "comment": null
+            },
+            {
+                "id": 1,
+                "content": "var B = new char[2, 3] { { '1', '2', '3' }, { '4', '5', '6' } };",
+                "isCorrect": true,
+                "comment": "Комментарий для ответа 1"
+            },
+            {
+                "id": 3,
+                "content": "char[,] A = new char[2, 3];",
+                "isCorrect": false,
+                "comment": null
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "И еще один вопрос про массивы",
+        "answers": [
+            {
+                "id": 2,
+                "content": "char[,] A = new char[2, 3];",
+                "isCorrect": false,
+                "comment": null
+            },
+            {
+                "id": 3,
+                "content": "char[,] A = new char[2, 3];",
+                "isCorrect": false,
+                "comment": null
+            },
+            {
+                "id": 1,
+                "content": "var B = new char[2, 3] { { '1', '2', '3' }, { '4', '5', '6' } };",
+                "isCorrect": true,
+                "comment": "Комментарий для ответа 1"
+            }
+        ]
+    }
+]
